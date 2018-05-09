@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	{% block title %}
+		<title>皮卡出电影</title>
+	{% endblock %}
+	{% block head %}
+		<link rel="stylesheet" href="{{url_for('static',filename='css/base.css')}}">
+	{% endblock %}
+</head>
+<body>
+	{% block nav %}
+		<div class="nav float-clear ">
+			<div class="nav-left">pika movie</div>
+		</div>
+	{% endblock %}
+	{% block countbar %}
+	{% endblock %}
+	{% block content %}
+	{% endblock %}
+	{% block footer %}
+		<div class="footer"></div>
+	{% endblock %}
+</body>
+</html>
